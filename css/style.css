@@ -95,11 +95,12 @@ figcaption {
 
 a {
   color: #1a1a1a;
-  text-decoration: underline 
+  text-decoration: underline;
 }
 
 a :hover {
   color: #ff3530;
+  text-decoration: none;
 }
 
 ul {
