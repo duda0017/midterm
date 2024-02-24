@@ -34,20 +34,20 @@
 
 body {
   font-family: "Vesper Libre", serif;
-  text-decoration-color: #1a1a1a;
+  color: #1a1a1a;
   line-height: 1.5;
   margin: 0;
 }
 
 header {
   text-align: center;
-  text-decoration-color: #fff;
+  color: #fff;
   background-color: #000;
 }
 
 footer {
   text-align: center;
-  text-decoration-color: #fff;
+  color: #fff;
   background-color: #000;
 }
 
@@ -90,16 +90,16 @@ figcaption {
   text-align: center;
   font-size: .75rem;
   font-style: italic;
-  text-decoration-color: #757575;
+  color: #757575;
 }
 
 a {
-  text-decoration-color: #1a1a1a;
+  color: #1a1a1a;
   text-decoration: underline 
 }
 
 a :hover {
-  text-decoration-color: #ff3530;
+  color: #ff3530;
 }
 
 ul {
