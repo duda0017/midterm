@@ -10,15 +10,43 @@
     font-style: normal;
   }
 
-
-     // <uniquifier>: Use a uniquifier for the class name
-    // <weight>: Use a value from 300 to 800
-
-.open-sans-<uniquifier> {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
+@font-face {
+  font-family: ".open-sans-regular";
+  src: url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+  font-weight: 400;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+}
+
+@font-face {
+  font-family: ".open-sans-regular";
+  src: url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: ".open-sans-bold";
+  src: url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+body {
+  font-family: "Vesper Libre", serif;
+  text-decoration-color: #1a1a1a;
+  line-height: 1.5;
+  margin: 0;
+}
+
+header {
+  text-align: center;
+  text-decoration-color: #fff;
+  background-color: #000;
+}
+
+footer {
+  text-align: center;
+  text-decoration-color: #fff;
+  background-color: #000;
 }
